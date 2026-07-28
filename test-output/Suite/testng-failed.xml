@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <parameter name="passWord" value="omr@123"/>
+  <parameter name="UserName" value="greens@123"/>
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <parameter name="passWord" value="omr@123"/>
+    <parameter name="UserName" value="greens@123"/>
+    <classes>
+      <class name="TestNg.employee">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestNg.employee -->
+      <class name="TestNg.Class">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNg.Class -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
