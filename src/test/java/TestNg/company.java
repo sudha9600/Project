@@ -15,6 +15,14 @@ public class company {
 	private void companyPlace() {
 		System.out.println(Thread.currentThread().getId());
 	}
-	
+	@Test
+	private void companyId() {
+		System.out.println("company id:123");
+		
+	}
+	@Test
+	private void companymodel() {
+		System.out.println("Company Model:bmw");
+	}
 
 }
