@@ -13,5 +13,7 @@ public static void main(String[] args) {
 	firstName.sendKeys("GreensTech");
 	WebElement lastName=driver.findElement(By.id("last_name"));
 	lastName.sendKeys("OMR");
-}
+} 
+	public void nextpage{
+	}
 }
