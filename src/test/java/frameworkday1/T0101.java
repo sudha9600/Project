@@ -14,6 +14,5 @@ public static void main(String[] args) {
 	WebElement lastName=driver.findElement(By.id("last_name"));
 	lastName.sendKeys("OMR");
 } 
-	public void nextpage{
-	}
+	
 }
